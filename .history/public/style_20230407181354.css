@@ -1,0 +1,41 @@
+
+.wrapper-all{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/本棚.jpg);
+    background-color:rgba(255,255,255,0.3);
+    background-blend-mode:lighten;
+}
+.wrapper-contents{
+    width: 90%;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+.contents{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20%;
+    height: 500px ;
+    position:absolute;
+    background-color: aliceblue;
+    border-radius: 5%;
+}
+.book-img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 40px;
+}
+.form-contents{
+    width: 100%;
+    height: 120px;
+}
+.text{
+    width: 400px;
+    height: 60px;
+    opacity: 0.8;
+    margin-left: 200px;
+}

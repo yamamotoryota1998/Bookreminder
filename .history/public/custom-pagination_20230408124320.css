@@ -1,0 +1,13 @@
+/* カスタムページネーションスタイル */
+.pagination .page-link {
+    font-size: 14px !important; /* フォントサイズを変更 */
+}
+
+.pagination .page-item .page-link {
+    padding: 5px 12px !important; /* パディングを変更 */
+}
+
+.pagination .page-item .page-link svg {
+    width: 20px !important; /* 矢印アイコンの幅を変更 */
+    height: 20px !important; /* 矢印アイコンの高さを変更 */
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+.wrapper-all{
+    width: 100%;
+    /* height: 100%; */
+    height: 1300px ;
+    background-image: url(/img/本棚.jpg);
+    background-color:rgba(255,255,255,0.3);
+    background-blend-mode:lighten;
+}
+.wrapper-contents{
+    width: 90%;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+.contents{
+    width: 18%;
+    height: 500px;
+    margin: 10px;
+    background-color:rgba(253, 250, 205, 0.5);
+    box-shadow: 0 0 10px gray;
+    border-radius: 5%;
+    float: left;
+}
+.book-img{
+    width: 192px;
+    height: 274px;
+    position: relative;
+    left: 55px;
+    top: 40px;
+}
+.book-title{
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+.book-author{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 50px;
+}
+.form-contents{
+    width: 100%;
+    height: 120px;
+}
+.book-name{
+    width: 400px;
+    height: 40px;
+    opacity: 0.8;
+    margin-left: 700px;
+    margin-top: 60px;
+}
+.book-comment{
+    position: relative;
+    margin-top:50px ;
+}
+input[type="submit"] {
+    color: #fff;
+    background-color: #007bff;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+.content-result{
+    width: 18%;
+    height: 500px;
+    margin: 10px;
+    background-color:rgba(253, 250, 205, 0.5);
+    box-shadow: 0 0 10px gray;
+    border-radius: 5%;
+    float: left;
+}
+h1{
+    text-align: center;
+}
+.book-img-result{
+    width: 192px;
+    height: 274px;
+    position: relative;
+    left: 55px;
+    top: 40px;
+}
+.title-result{
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Noto Serif JP', sans-serif;
+    
+}
+.author-result{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 40px;
+}
+.btn-result{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.noimg-result{
+    width: 192px;
+    height: 274px;
+    position: relative;
+    left: 55px;
+    top: 40px;
+}
+.noimg-text{
+    text-align: center;
+}
+.noauthor-result{
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.pagination a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.pagination a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.pagination span {
+    margin: 0 10px;
+}
+/* ページネーションのスタイル */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+}
+
+.pagination .active span {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.delete-button {
+    background-color: #f44336; /* 背景色: 赤 */
+    border: none; /* 枠線を非表示にする */
+    color: white; /* 文字色: 白 */
+    text-align: center; /* テキストを中央寄せにする */
+    text-decoration: none; /* テキスト装飾を無効にする */
+    display: inline-block; /* インラインブロック要素にする */
+    font-size: 16px; /* フォントサイズを16pxに設定する */
+    margin: 4px 2px; /* 余白を設定する */
+    cursor: pointer; /* カーソルをポインタに変更する */
+    border-radius: 4px; /* 角を丸くする */
+    padding: 8px 16px; /* 内側の余白を設定する */
+    transition-duration: 0.4s; /* ホバーエフェクトのアニメーション時間を設定する */
+    padding: 12px 24px; /* 内側の余白を増やす */
+    font-size: 18px; /* フォントサイズを18pxに設定する */
+    line-height: 1; /* テキストの行間を調整する */
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; /* 背景色を濃い赤に変更する */
+    color: white; /* 文字色を白に保つ */
+}
+.delete-button-container {
+    position: relative; /* コンテナを固定位置に設定 */
+    top: 100px; /* 下端からの距離を20pxに設定 */
+    left: 20px; /* 右端からの距離を20pxに設定 */
+}

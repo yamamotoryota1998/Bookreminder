@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+.wrapper-all{
+    width: 100%;
+    /* height: 100%; */
+    height: 1920px ;
+    background-image: url(img/本棚.jpg);
+    background-color:rgba(255,255,255,0.3);
+    background-blend-mode:lighten;
+}
+.wrapper-contents{
+    width: 90%;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+.contents{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20%;
+    height: 500px ;
+    position:absolute;
+    background-color: aliceblue;
+    border-radius: 5%;
+}
+.book-img{
+    width: 192px;
+    height: 274px;
+    position: relative;
+    left: 65px;
+    top: 40px;
+}
+.form-contents{
+    width: 100%;
+    height: 120px;
+}
+.text{
+    width: 400px;
+    height: 40px;
+    opacity: 0.8;
+    margin-left: 700px;
+    margin-top: 60px;
+}
+input[type="submit"] {
+    color: #fff;
+    background-color: #007bff;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+.content-result{
+    width: 18%;
+    height: 500px;
+    margin: 10px;
+    background-color:rgba(253, 250, 205, 0.5);
+    box-shadow: 0 0 10px gray;
+    border-radius: 5%;
+    float: left;
+}
+h1{
+    text-align: center;
+}
+.book-img-result{
+    width: 192px;
+    height: 274px;
+    position: relative;
+    left: 55px;
+    top: 40px;
+}
+.title-result{
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Noto Serif JP', sans-serif;
+    
+}
+.author-result{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 40px;
+}
+.btn-result{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.noimg-result{
+    width: 192px;
+    height: 274px;
+    position: relative;
+    left: 55px;
+    top: 40px;
+}
